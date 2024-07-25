@@ -33,8 +33,8 @@ Além disso, o usuário pode usar um filtro de texto para buscar por títulos de
 :wrench: Instalação <br />
 Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/todo-list-app.git
-cd todo-list-app
+git clone https://github.com/kairosb/ToDoList.git
+cd ToDoList
 ```
 
 Instale as dependências:
@@ -48,7 +48,7 @@ npm start
 ```
 
 :computer: Tecnologias Utilizadas: <br />
-React
-Redux
-JavaScript
-CSS
+React <br />
+Redux <br />
+JavaScript <br />
+CSS <br />
