@@ -66,7 +66,6 @@ export const TaskList = () => {
         setCurrentTask(null);
         setIsModalOpen(false);
     };
-    console.log('teste')
 
     const moveTask = (fromIndex, toIndex) => {
         dispatch(reorderTasks({
