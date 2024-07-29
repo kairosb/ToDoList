@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .navbar h2 {
@@ -43,4 +44,10 @@
     border-radius: 5px;
     background-color: #6C63FF;
     color: #FFFFFF;
+    padding: 4px;
+}
+
+.navbar__search__icon {
+    color: #6C63FF;
+    cursor: pointer;
 }
