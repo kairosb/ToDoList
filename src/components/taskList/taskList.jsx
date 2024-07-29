@@ -12,7 +12,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend'
 
 const ItemType = 'TASK';
 
-const DraggableTask = ({ task, index, moveTask }) => {
+const DraggableTask = ({ task, index, moveTask, onEdit }) => {
     const [{ isDragging }, drag] = useDrag({
         type: ItemType,
         item: { index },
@@ -42,7 +42,7 @@ const DraggableTask = ({ task, index, moveTask }) => {
                 title={task.title} 
                 description={task.description} 
                 completed={task.completed}
-                onEdit={task.onEdit}
+                onEdit={onEdit}
             />
         </div>
     );
@@ -93,6 +93,7 @@ export const TaskList = () => {
                                 task={{id, title, description, completed}}
                                 index={index}
                                 moveTask={moveTask}
+                                onEdit={openModal}
                             />
                         ))
                     )}
