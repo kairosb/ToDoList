@@ -30,6 +30,9 @@ Apenas as tarefas a fazer <br />
 Apenas as tarefas concluídas <br />
 Além disso, o usuário pode usar um filtro de texto para buscar por títulos de tarefas.
 
+:repeat: Arrastar e Soltar (Drag-and-Drop):
+A aplicação permite a reordenação das tarefas por meio de arrastar e soltar. Os usuários podem rearranjar a ordem das tarefas na lista de acordo com sua preferência.
+
 :wrench: Instalação <br />
 Clone o repositório:
 ```bash
