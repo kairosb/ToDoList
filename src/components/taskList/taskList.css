@@ -1,0 +1,38 @@
+.containerTaskList {
+    position: relative;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.buttonAddTask {
+    cursor: pointer;
+}
+
+.containerButtonAddTask {
+    position: fixed;
+    bottom: 5px;
+    z-index: 1000;
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container__task {
+    width: 50%;
+}
+
+.taskList > .container__task:not(:last-child) {
+    border-bottom: 1px solid #6C63FF; 
+    padding-bottom: 12px;
+    margin-bottom: 12px; 
+}
